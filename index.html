@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mx-auto mt-10">
+        <input id="abi-referredLink" class="bg-transparent font-primary text-sm text-white border border-solid rounded w-[90%] p-4 pr-8 lg:rounded-xl" value="www.cervezabudweiser.com.pa/referido-1234456789" type="text" placeholder="www.cervezabudweiser.com.pa/referido-1234456789" disabled>
+        <span id="abi-referredButton" class="absolute left-[90%] top-1/2 -translate-x-1/2 -translate-y-1/2 text-xs text-center font-primary font-bold w-[55px] cursor-pointer lg:top-[27.5px] 2xl:w-[69px]">
+            clickme
+        </span>
+    </div>
+</body>
+<script type="module" src="./copyClipboard.js"></script>
+<script type="module">
+    import copytoClipboard from './copyClipboard.js';
+    // User zone text copy function        
+    copytoClipboard('#abi-referredButton','#abi-referredLink');
+</script>
+</html>

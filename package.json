@@ -1,0 +1,28 @@
+{
+  "name": "copytoclipboard-serempre",
+  "version": "0.1.4",
+  "description": "function for copy text in clipboard",
+  "main": "copyClipboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private":false,
+  "keywords": [
+                "copy to Clipboard",
+                "text in Clipboard",
+                "clipboard",
+                "copy button"
+              ],
+  "authors": [{
+              "name":"Jhon William Rubiano Bernal",
+              "email": "jrubiano@serempre.com"
+            },
+            {
+              "name":"Emmanuel David Garnica Perez",
+              "email": "egarnica@serempre.com"
+            }],
+  "license": "ISC",
+  "dependencies": {
+                    "typescript": "4.5.4"
+                  }
+}
